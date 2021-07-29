@@ -1,12 +1,16 @@
 function menu() {
-            window.location = "https://tornadotes.github.io/menu.html";
+            window.close();
+            window.open("https://tornadotes.github.io/menu.html");
 }
 function trouble() {
-            window.location("https://tornadotes.github.io/troublemakers.html");
+            window.close();
+            window.open("https://tornadotes.github.io/troublemakers.html");
 }
 function home() {
-            window.location("https://tornadotes.github.io/index.html");
+            window.close();
+            window.open("https://tornadotes.github.io/index.html");
 }
 function staff() {
-            window.location("https://tornadotes.github.io/staffroll.html");
+            window.close();
+            window.open("https://tornadotes.github.io/staffroll.html");
 }
