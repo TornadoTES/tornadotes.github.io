@@ -1,5 +1,5 @@
 function menu() {
-            window.location("https://tornadotes.github.io/menu.html");
+            window.location = "https://tornadotes.github.io/menu.html";
 }
 function trouble() {
             window.location("https://tornadotes.github.io/troublemakers.html");
