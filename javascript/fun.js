@@ -26,3 +26,5 @@ function getInputValue() {
                     messagetext("Sorry, please try again.");
             }
 }
+function sorry() {
+            setTimeout(function(){ window.open("https://tornadotes.github.io/order.html }, 3000);
