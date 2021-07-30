@@ -3,3 +3,20 @@
   <script src="javascript/fun.js"></script>
   <div>
     <img src="../images/WhatsApp_Image_2021-07-12_at_8.28.37_PM-removebg-preview.png" alt="Logo">
+       <button type="buttonhome" onclick="home()">Home</button>
+    </div>
+    <body>
+        <p> What would you like to order? </p>
+    <input type="text" placeholder="" id="order">
+    <button type="button" onclick="getInputValue();">Send</button>
+        
+            <script>
+        function getInputValue(){
+            // Selecting the input element and get its value 
+            var inputVal = document.getElementById("order").value;
+            if(inputVal = "Classic Dark Pump" || "Pump" || "pump" || "Pump Bowl" || "Bowl" || "bowl" || "Seed Plate" || "Seed" || "seed" || "Brioche" || "brioche" || "Walnuts" || "nuts" || "walnuts" || "Corn" || "corn" || "Carrots" || "carrots" || "Stuffed Mini Pump" || "stuffed pump" || "Apple Salad" || "salad" || "apple salad"){
+                window.open("https://tornadotes.github.io/tracker.html");
+    </script>
+    </body>
+</html>
+
