@@ -24,5 +24,4 @@ function getInputValue(){
                 window.open("https://tornadotes.github.io/tracker.html");
             } else {
                     messagetext("Sorry, please try again.");
-}
-
+})
