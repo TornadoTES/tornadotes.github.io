@@ -14,3 +14,7 @@ function staff() {
             window.close();
             window.open("https://tornadotes.github.io/staffroll.html");
 }
+function order() {
+            window.close();
+            window.open("https.tornadotes.github.io/order.html");
+}
