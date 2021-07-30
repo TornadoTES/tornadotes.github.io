@@ -27,5 +27,9 @@ function getInputValue() {
             }
 }
 function sorry() {
-            setTimeout(function(){ window.open("https://tornadotes.github.io/order.html }, 3000);
+            var delayInMilliseconds = 60000; //1 second
+             setTimeout(function() {
+              window.open("https://tornadotes.github.io/sorry.html");
+             }, delayInMilliseconds);
+
 }
