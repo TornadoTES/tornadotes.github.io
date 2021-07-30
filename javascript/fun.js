@@ -16,5 +16,5 @@ function staff() {
 }
 function order() {
             window.close();
-            window.open("https.tornadotes.github.io/order.html");
+            window.open("https://tornadotes.github.io/order.html");
 }
